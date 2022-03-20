@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+*{box-sizing: border-box;}
+
+img{
+    width: 100%;
+}
+.zsuzsi{
+    width: 300px;
+    border: 2px solid black;
+}
+article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: space-around;
+    row-gap: 20px;
+}
